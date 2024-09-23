@@ -7,6 +7,25 @@
     <title>Distribuciones de Probabilidad</title>
 </head>
 <body>
+    <style>
+    .page {
+        opacity: 0; 
+        transition: opacity 0.5s ease; 
+        visibility: hidden; /* Ocultar visualmente */
+    }
+
+    .page.active {
+        opacity: 1; 
+        visibility: visible; /* Hacer visible */
+    }
+</style>
+
+<script>
+    window.addEventListener('load', () => {
+        const page = document.querySelector('.page');
+        page.classList.add('active'); // Hacer visible la página
+    });
+</script>
     <div class="svg-background">
         <svg viewBox="0 0 100 100" preserveAspectRatio="none">
             <rect class="shape" x="10" y="10" width="15" height="15"></rect>

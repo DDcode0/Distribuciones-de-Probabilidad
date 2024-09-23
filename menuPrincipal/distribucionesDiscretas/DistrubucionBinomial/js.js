@@ -77,8 +77,7 @@ function calcularBinomial() {
   // Función para volver a la página anterior
   function volver() {
           // Agrega una animación de salida
-  document.body.style.transition = 'opacity 0.5s ease';
-  document.body.style.opacity = '0';
+  
 
   setTimeout(function() {
     window.location.href = '../index.html';  // O redirigir a una página específica con window.location.href = 'url';

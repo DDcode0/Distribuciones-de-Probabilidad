@@ -1,4 +1,3 @@
-
         window.addEventListener('load', () => {
             const page = document.querySelector('.page');
             page.classList.add('active'); // Hacer visible la página

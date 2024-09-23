@@ -1,4 +1,4 @@
-  <script>
+
         window.addEventListener('load', () => {
             const page = document.querySelector('.page');
             page.classList.add('active'); // Hacer visible la página
@@ -54,4 +54,4 @@
                 window.location.href = url; // Redirige a la URL especificada
             }, 300); // Tiempo de espera para la animación
         }
-    </script>
+  

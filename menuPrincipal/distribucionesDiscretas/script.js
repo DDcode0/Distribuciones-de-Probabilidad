@@ -43,8 +43,8 @@ function animateAndNavigate(optionId) {
     }
 
       // Agrega una animación de salida
-  document.body.style.transition = 'opacity 0.5s ease';
-  document.body.style.opacity = '0';
+  // document.body.style.transition = 'opacity 0.5s ease';
+  // document.body.style.opacity = '0';
 
 
     // Redirige después de un breve retraso

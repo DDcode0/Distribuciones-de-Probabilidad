@@ -75,10 +75,11 @@ function calcularBinomial() {
     }
   }
 
-document.getElementById('btn-volver').addEventListener('click', function() {
-    window.location.href = '../index.html';
+document.addEventListener('DOMContentLoaded', function() {
+    document.getElementById('btn-volver').addEventListener('click', function() {
+        window.location.href = '../index.html';
+    });
 });
-
   
   
     

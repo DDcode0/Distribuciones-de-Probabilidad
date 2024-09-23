@@ -1,4 +1,9 @@
 // Función para calcular la probabilidad binomial
+document.getElementById('btn-volver').addEventListener('click', function() {
+    window.location.href = '../index.html';
+});
+
+
 function calcularBinomial() {
     let n = parseInt(document.getElementById('n').value);
     let p = parseFloat(document.getElementById('p').value);
@@ -74,15 +79,7 @@ function calcularBinomial() {
   }
   
   
-  // Función para volver a la página anterior
-  function volver() {
-          // Agrega una animación de salida
   
-
-  setTimeout(function() {
-    window.location.href = '../index.html';  // O redirigir a una página específica con window.location.href = 'url';
-}, 0.5); // Tiempo de espera para la animación
-
     
   }
   

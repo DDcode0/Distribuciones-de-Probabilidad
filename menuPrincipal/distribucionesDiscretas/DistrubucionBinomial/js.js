@@ -82,7 +82,7 @@ function calcularBinomial() {
 
   setTimeout(function() {
     window.location.href = '../index.html';  // O redirigir a una página específica con window.location.href = 'url';
-}, 300); // Tiempo de espera para la animación
+}, 0.5); // Tiempo de espera para la animación
 
     
   }

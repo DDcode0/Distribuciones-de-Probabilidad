@@ -1,7 +1,4 @@
 // Función para calcular la probabilidad binomial
-document.getElementById('btn-volver').addEventListener('click', function() {
-    window.location.href = '../index.html';
-});
 
 
 function calcularBinomial() {
@@ -77,7 +74,11 @@ function calcularBinomial() {
       window.myChart.destroy();
     }
   }
-  
+
+document.getElementById('btn-volver').addEventListener('click', function() {
+    window.location.href = '../index.html';
+});
+
   
   
     
